@@ -1,0 +1,35 @@
+{
+    "intents":[
+        {
+            "tag":"greetings",
+            "patterns":["Hi","Hey","Hello"],
+            "respons":["Hey how can i help you?","What's up dude? how is it going?"]
+        },
+        {
+            "tag":"goodbye",
+            "patterns":["Bye","Goodbye","See you later"],
+            "respons":["Talk to you soon!","See you again dude"]
+        },
+        {
+            "tag":"creator",
+            "patterns":["who created you?","who is your creator?"],
+            "respons" : ["I was developed by faris iftikhar alfarisi who started to learning about neural network and machine learning. he was a data scientist student in computer university of indonesia, now he was interested in computer vision, generative AI, and physics"]
+        },
+        {
+            "tag":"introduce",
+            "patterns":["tell me about yourself","who are you?"],
+            "respons":["I was bot who invented by faris iftikhar alfarisi to help him learning speech recognition, python programming, and machine learning"]
+        },
+        {
+            "tag" : "sunday schedule",
+            "patterns" : ["what are the plans for sundays?","sunday schedules"],  
+            "respons" : ["We will be having a movie night on Sundays. The movie we plan to watch this Sunday is 'Kungfu Panda 4'"]
+        },
+        {
+            "tag":"file",
+            "patterns":["make a new file","create a file"],
+            "respons":[]
+
+        }
+    ]
+}

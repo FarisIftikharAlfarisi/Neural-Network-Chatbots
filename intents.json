@@ -1,0 +1,60 @@
+{
+    "intents":[
+        {
+            "tag": "greetings",
+            "patterns": ["Hai","Halo bot","Hello"],
+            "responses":["Halo kawan, ada yang bisa aku bantu?","Hei, ada yang bisa aku bantu?","Hai,Bagaimana aku bisa membantumu hari ini?"]
+            
+        },
+        {
+            "tag":"thanks",
+            "patterns":["Terimakasih atas informasinya","Terimakasih","Baik, terima kasih","terimakasih"],
+            "responses":["Terimakasih kembali","Senang bisa membantu :)"] 
+        },
+        {
+            "tag":"name",
+            "patterns":["Kamu siapa?","Siapa kamu?","Perkenalkan dirimu"],
+            "responses":["Aku adalah bot yang dibuat untuk pembelajaran dari pemilik instagram @frs.alfrs_ dalam mengenal lebih jauh dengan machine learning menggunakan neural network","Saya bot yang dibuat oleh Faris untuk mengenal neural network untuk machine lerning "] 
+        },
+        {
+            "tag" : "goodbye",
+            "patterns":["Sampai jumpa lagi","Have a nice day","Have a good day","dadah","dadaah","dadaaahh","bye"],
+            "responses":["dadaaahhh... see youu","Sampai bertemu kembali","nanti kita chattan lagi","Have a nice day for you"]
+        },
+        {
+            "tag" : "interest",
+            "patterns":["apa yang kamu sukai?","apa hal kesukaan mu?"],
+            "responses":["Faris suka mengeksplorasi","Aku suka membantu"]
+        },
+        {
+            "tag" : "visimisi",
+            "patterns":["apa visi kamu?","apa misi kamu?", "apa visi dan misimu?","sebutkan visi dan misimu", "sebutkan visi misimu"],
+            "responses":["Visi misi dari gabut-chatbot adalah menjadi media pembelajaran machine learning yang baik bagi faris untuk mengenal neural network","visi misi faris adalah Kuliah sampai S3, salah satu jurusan s2 nya adalah fisika"]
+        },
+        {
+            "tag" : "motto",
+            "patterns":["sebutkan motto kamu","apa motto hidupmu?","apa mottomu?","motto"],
+            "responses":["Selalu ada, selalu bisa, pasti ada jalan"]
+        },
+        {
+            "tag" : "jokes",
+            "patterns":["berikan saya jokes","apakah kamu punya jokes?","beri saya lelucon","lelucon","lagi","beri saya jokes lagi"],
+            "responses":["baiklah, Buah buah apa yang lucu? \nBUAHAHAHAHAHAH, lucu kan?","Baik, tentara tentara apa yang paling kecil? tentara sekutu","aku punya satu jokes, \nBis, bis apa yang maksain? Bisa tapi mati"]
+        },
+        {
+            "tag" : "tebakan",
+            "patterns":["berikan saya tebak-tebakan","kamu punya tebak tebakan","beri aku tebak tebakan","tebak-tebakan","tebak tebakan"],
+            "responses":["Aku mau tanya, kalau kertas ukuran HVS itu apa? HTS ya?","Coba yang ini, kenapa air laut rasanya asin? karna kalo ASING itu kamu", "apa benua yang paling dingin? \nantarkita yah?","Tempat main arkade di mall mall itu apa biasanya? Friendzone yah?"]
+        },
+        {
+            "tag" : "ledek",
+            "patterns":["kapan aku punya pacar?","prediksi kapan aku punya pacar"],
+            "responses":["Mana gw tau bossqu, cari lahh"]
+        },
+        {
+            "tag" : "respon ledek",
+            "patterns":["kok gitu sih?","kok gitu jawabnya"],
+            "responses":["waduh, salahin muka om, jangan salahin angin"]
+        }
+    ]
+}
